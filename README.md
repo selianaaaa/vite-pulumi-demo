@@ -70,11 +70,13 @@ Note: Ensure that your AWS credentials are correctly configured for Pulumi to de
       "Effect": "Allow",
       "Principal": "_",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::[bucket-name]/_" // Replace [bucket-name] with your actual bucket name.
+      "Resource": "arn:aws:s3:::[bucket-name]/_"
     }
   ]
 }
 ```
+
+Replace [bucket-name] with your actual bucket name.
 
 ## Check Public Access Settings:
 
