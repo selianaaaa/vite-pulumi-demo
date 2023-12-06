@@ -1,0 +1,3 @@
+name: vite-pulumi-demo
+runtime: nodejs
+description: pulumi new typescript
